@@ -83,7 +83,7 @@ elif a == "4":
     b = input("Выберите действие: ")
     if b == "2":
 
-        list_files = subprocess.run(["pkg" , "install" , "irssi"])
+        list_files = subprocess.run(["apt-get" , "install" , "irssi"])
     if b == "1":
         list_files = subprocess.run(["irssi"])
 
