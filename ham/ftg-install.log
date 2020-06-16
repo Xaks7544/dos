@@ -1,0 +1,84 @@
+Installing...
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/termux-root-packages-24 root InRelease
+Ign:4 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Ign:1 https://dl.bintray.com/termux/termux-packages-24 stable InRelease
+Get:5 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+Hit:5 https://dl.bintray.com/grimler/game-packages-24 games Release
+Get:7 https://dl.bintray.com/grimler/termux-root-packages-24 root Release [6185 B]
+Hit:7 https://dl.bintray.com/grimler/termux-root-packages-24 root Release
+Get:8 https://dl.bintray.com/grimler/science-packages-24 science Release [6191 B]
+Hit:8 https://dl.bintray.com/grimler/science-packages-24 science Release
+Get:6 https://dl.bintray.com/termux/termux-packages-24 stable Release [6061 B]
+Get:10 https://dl.bintray.com/termux/termux-packages-24 stable Release.gpg [821 B]
+Get:13 https://dl.bintray.com/termux/termux-packages-24 stable/main arm Packages [114 kB]
+Fetched 121 kB in 9s (13.4 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+python-tkinter
+The following packages will be upgraded:
+git python
+2 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+Need to get 11.7 MB of archives.
+After this operation, 1282 kB of additional disk space will be used.
+Get:1 https://dl.bintray.com/termux/termux-packages-24 stable/main arm git arm 2.27.0-3 [3400 kB]
+Get:2 https://dl.bintray.com/termux/termux-packages-24 stable/main arm python arm 3.8.3 [8305 kB]
+Fetched 11.7 MB in 51s (227 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17478 files and directories currently installed.)
+Preparing to unpack .../archives/git_2.27.0-3_arm.deb ...
+Unpacking git (2.27.0-3) over (2.26.0) ...
+Preparing to unpack .../archives/python_3.8.3_arm.deb ...
+Unpacking python (3.8.3) over (3.8.2-2) ...
+Setting up git (2.27.0-3) ...
+Setting up python (3.8.3) ...
+Setting up pip...
+Looking in links: /data/data/com.termux/files/usr/tmp/tmpem855713
+Requirement already up-to-date: setuptools in /data/data/com.termux/files/usr/lib/python3.8/site-packages (41.2.0)
+Requirement already up-to-date: pip in /data/data/com.termux/files/usr/lib/python3.8/site-packages (19.2.3)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libffi is already the newest version (3.3).
+libffi set to manually installed.
+libiconv is already the newest version (1.16-3).
+libjpeg-turbo is already the newest version (2.0.4).
+libjpeg-turbo set to manually installed.
+libwebp is already the newest version (1.1.0).
+libwebp set to manually installed.
+libxslt is already the newest version (1.1.34).
+libxslt set to manually installed.
+The following additional packages will be installed:
+autoconf automake bc bison cmake flex gperf jsoncpp libarchive libexpat
+libltdl liblzo libpixman libtool libuv libx11 libxau libxcb libxdmcp libxext
+libxrender m4 make pkg-config rhash
+Suggested packages:
+golang nodejs patchelf ruby rust subversion
+Recommended packages:
+xorg-xauth
+The following NEW packages will be installed:
+autoconf automake bc bison build-essential cmake flex gperf jsoncpp
+libarchive libcairo libexpat libltdl liblzo libpixman libtool libuv libx11
+libxau libxcb libxdmcp libxext libxrender m4 make pkg-config rhash
+0 upgraded, 27 newly installed, 0 to remove and 31 not upgraded.
+Need to get 10.7 MB of archives.
+After this operation, 73.0 MB of additional disk space will be used.
+Get:1 https://dl.bintray.com/termux/termux-packages-24 stable/main arm m4 arm 1.4.18-3 [168 kB]
+Get:2 https://dl.bintray.com/termux/termux-packages-24 stable/main arm make arm 4.3-1 [222 kB]
+Get:3 https://dl.bintray.com/termux/termux-packages-24 stable/main arm autoconf all 2.69 [283 kB]
+Get:4 https://dl.bintray.com/termux/termux-packages-24 stable/main arm automake all 1.16.2 [546 kB]
+Get:5 https://dl.bintray.com/termux/termux-packages-24 stable/main arm flex arm 2.6.4-1 [193 kB]
+Get:6 https://dl.bintray.com/termux/termux-packages-24 stable/main arm bc arm 1.07.1-1 [59.0 kB]
+Get:7 https://dl.bintray.com/termux/termux-packages-24 stable/main arm bison arm 3.6.2 [456 kB]
+Get:8 https://dl.bintray.com/termux/termux-packages-24 stable/main arm pkg-config arm 0.29.2 [25.6 kB]
+Get:9 https://dl.bintray.com/termux/termux-packages-24 stable/main arm build-essential all 4.1 [810 B]
+Get:10 https://dl.bintray.com/termux/termux-packages-24 stable/main arm libarchive arm 3.4.3 [372 kB]
+Get:11 https://dl.bintray.com/termux/termux-packages-24 stable/main arm libexpat arm 2.2.9 [65.8 kB]
+Get:12 https://dl.bintray.com/termux/termux-packages-24 stable/main arm jsoncpp arm 1.9.3-3 [92.6 kB]
+Get:13 https://dl.bintray.com/termux/termux-packages-24 stable/main arm libuv arm 1.37.0 [72.7 kB]
+Get:14 https://dl.bintray.com/termux/termux-packages-24 stable/main arm rhash arm 1.3.9-1 [152 kB]
+Get:15 https://dl.bintray.com/termux/termux-packages-24 stable/main arm cmake arm 3.17.3 [3973 kB]
+Get:16 https://dl.bintray.com/termux/termux-packages-24 stable/main arm gperf arm 3.1-4 [64.8 kB]
+Get:17 https://dl.bintray.com/termux/termux-packages-24 stable/main arm liblzo arm 2.10-2 [73.8 kB]
